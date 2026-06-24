@@ -4,7 +4,6 @@
 
 Registers:
     All Registers mentioned are 8 Bit unless otherwise specified
-
     Program Counter - 8 Bit
     Accumulator - General Purpose and used with ALU
     B - General Purpose
