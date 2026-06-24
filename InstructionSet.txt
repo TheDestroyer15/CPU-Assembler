@@ -1,0 +1,25 @@
+
+
+00: No Operation [NOP]
+
+10: Jump [JMP] (Imm)
+11: Jump if not Zero [JNE] (Imm)
+12: Jump if Carry [JCS] (Imm)
+13: Jump if Negative [JNS] (Imm)
+
+19: Add [ADD] (Imm)
+1A: Add [ADD] (Abs)
+1B: Add [ADD] (B)
+1C: Add with Carry [ADC] (Imm)
+1D: Add with Carry [ADC] (Abs)
+1E: Add with Carry [ADC] (B)
+1F: Compare [CMP] (Imm)
+20: Compare [CMP] (Abs)
+21: Subtract [SUB] (Imm)
+22: Subtract [SUB] (Abs)
+23: Subtract [SUB] (B)
+
+
+
+
+FF: Halt [HLT]

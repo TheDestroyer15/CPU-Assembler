@@ -5,14 +5,16 @@
 class CPU{
 
     public:
-        bool Halt = false;
-        Byte PC;
+        bool Halt = false; // 
+        Byte PC; // Program Counter
 
-        Byte A;
-        Byte B;
-        Byte F;
+        Byte A; // Accumulator
+        Byte B; // B 
+        Byte F; // Flags
 
-        Byte Output = 0x00;
+        Byte MA;
+
+        Byte Output = 0x00; // Standard Output
         
     public:
 
